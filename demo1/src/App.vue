@@ -1,13 +1,26 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <img src="./assets/logo.png"/>
+    <h1>{{aa}}</h1>
+    <daohang></daohang>
+    <router-view
+      class="view"
+      keep-alive
+      transition
+      transition-mode="out-in">
+    </router-view>
   </div>
 </template>
 
 <script>
+import daohang from './components/daohang'
 export default {
-  name: 'App'
+  data(){
+    return{
+      aa:'aa'
+    }
+  },
+  components: {daohang}
 }
 </script>
 
