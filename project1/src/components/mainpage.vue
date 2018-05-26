@@ -4,7 +4,7 @@
         <el-header>
             <el-row>
                 <el-col :span="5">
-                <img src="../assets/logo.png" v-bind:class="logo"/>
+                <img src="../assets/logo.jpg" v-bind:class="logo"/>
                 </el-col>
                 <el-col :span="8">
                     <div class="demo-input-suffix">
@@ -20,10 +20,12 @@
                 </el-col>
             </el-row>
         </el-header>
+        <br/>
         <daohang></daohang>
         <el-container>
             <el-aside  width="250px"><category></category></el-aside>
-            <el-main><maincontent></maincontent></el-main>    
+            <el-main>
+                <maincontent></maincontent></el-main>    
         </el-container>
     </div>
 </template>
@@ -55,9 +57,8 @@ export default {
     position: relative;
 }
 .logo{
-    border: 1px solid #000000;
     width: 150px;
-    height: 50px;
+    height: 80px;
 }
 .demo-input-suffix{
     width: 350px;

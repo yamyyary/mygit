@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+	<title>数据分析</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<style tpye="text/css">
+	.population_word{
+		font-family: "黑体";
+		font-size: 25px;
+		padding-bottom: 10px;
+	}
+	.chartmain{
+		width:650px; 
+		height: 400px;
+	}
+	img{
+		width: 650px;
+		height: 400px;
+	}
+	</style>
+	<script type="text/javascript" src="js/echarts.js"></script>
+	<script type="text/javascript" src="js/customed.js"></script>
+	<!--<script type="text/javascript"   src="http://api.map.baidu.com/api?v=2.0&ak=VntXZl3oMNpcvK69BIbQGp9AKA6V5Uhp"></script>-->
+</head>
+<body>
+	<div class="population_word">成都人口变化情况</div>
+	<div id="population_bar" class="chartmain"></div>
+	<div class="population_word">成都人口收入与消费情况</div>
+	<div id="salary_city_bar" class="chartmain"></div>
+	<div id="salary_country_bar" class="chartmain"></div>
+	<div class="population_word">成都机场地铁人流量</div>
+	<div id="transport_bar" class="chartmain"></div>
+	<div class="population_word">餐饮收入情况</div>
+	<div id="restrant_bar" class="chartmain"></div>
+	<div class="population_word">文创增势情况对比</div>
+	<div id="grow_rate_bar" class="chartmain"></div>
+	<div class="population_word">文化建设情况</div>
+	<div id="culture_bar" class="chartmain"></div>
+	<div class="population_word">环境质量情况</div>
+	<div id="situation_bar" class="chartmain"></div>
+	<div class="population_word">城市居民消费价格分类指数表</div>
+	<div id="comsume_bar" class="chartmain"></div>
+	<div class="population_word">成都景点排名</div>
+	<img src="secenery.jpg">
+	<div id="map_bar" class="chartmain"></div>
+
+	<script type="text/javascript" src="js/population.js"></script>
+	<script type="text/javascript" src="js/salary.js"></script>
+	<script type="text/javascript" src="js/transRestrant.js"></script>
+	<script type="text/javascript" src="js/growRate.js"></script>
+	<script type="text/javascript" src="js/culture.js"></script>
+	<script type="text/javascript" src="js/situation.js"></script>
+	<script type="text/javascript" src="js/cosume.js"></script>
+</body>
+
+<!--
+	ECharts: A Declarative Framework for Rapid Construction of Web-based Visualization
+Deqing Li, Honghui Mei, Yi Shen, Shuang Su, Wenli Zhang, Junting Wang, Ming Zu, Wei Chen.
+Visual Informatics, 2018 [PDF]
+-->

@@ -1,6 +1,6 @@
 <template>
   <div id="maincontent">
-      <el-carousel trigger="click" height="150px">
+      <el-carousel trigger="click" height="400px">
         <el-carousel-item>
             <img src="../../assets/mainpic.jpg"/>
         </el-carousel-item>
@@ -23,6 +23,9 @@ export default {
 }
 </script>
 <style scoped>
+.el-carousel{
+     width:700px;
+}
 img{
     width: 700px;
     height: 400px;
