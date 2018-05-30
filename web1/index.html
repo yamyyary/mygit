@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>成都网红城市分析</title>
+    <style media="screen" type="text/css" ></style>
+    <style tpye="text/css">
+    .population_word{
+        font-family: "黑体";
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .chartmain{
+        width:650px; 
+        height: 400px;
+    }
+    img{
+        width: 650px;
+        height: 400px;
+    }
+    </style>
+    <script type="text/javascript" src="js/echarts.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<!-- 插件基本结构 -->
+<div id="container" data-XSwitch>
+    <div class="sections">
+        <div class="section" id="section0">
+            <div class="container">
+                <div id="mask">
+                <div class="start">
+                    <p id="begin">成都新一线</p>
+                    <label class="line"></label>
+                    <p>一座来了就不想走的城市</p>
+                </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section1">
+            <div class="content">
+            <div id="first">
+            <h1>一首歌，成都红透2017</h1>
+            <p>&nbsp&nbsp长久以来，中国城市格局似乎已成定局，一线城市北上广深人口密集、资源富余，机会与竞争同在，无数人前往一线城市。一线城市承载力渐弱，北漂上漂成为社会热词，“准一线”“新一线”应运而生。2018年4月26日，一贯主持中国一线城市、新一线城市的《第一财经周刊》公布了最新的城市商业魅力排行榜，成都第三次登上榜首。</p>
+            <p>&nbsp&nbsp“九天开出一成都，万户千门入画图”，李白的诗句描绘出瑰丽的成都。电影《前任三》、民谣《成都》的火爆，让成都不断走入大家的视线成为网红第一城。这座深居内陆的网红之城，大高原、大雪山脚下存在着这样一个活色生香的大城市，两千年来“城名未改、城址未变、中心未移”，令人着迷神往。萌着大熊猫，唱着赵雷的《成都》，对本地移植的火锅、川菜、串串香、麻辣烫流口水，跑到春熙路、锦里、宽窄巷子等各种文艺地表留下自拍。2017年36.4万人在成都落户，人数是杭州的两倍多。一个地处西南的偏远省会，远离政治中心，不和沿海大城市抱团，靠什么获得如此大的曝光量成为网红第一城？这是一个充满生活气息的城市，人们享受着安逸的生活节奏，在古老中也透露出许多时尚的韵律，市井里也散发着文艺的韵味，看似平常的吃喝玩乐，隐藏着这座城市独特的风貌。</p>
+            <p>&nbsp&nbsp本次我们的作品将通过成都城市各方面数据的收集、归纳与分析，用可视化的手法展现成都这座城市如何在保持休闲气质的同时保持着城市新经济、文化持续发展的节奏，用多元且具有信服力的评价体系评估成都整体实力，对成都进行理性的刻画，从九大方面梳理成都走红的轨迹，热度持续的深层因素，展望成都未来发展趋势，在如今城市上升空间逐渐饱和的状况下，对中国二线、“新一线”城市寻求突破点同时保持自身特色提供助益思考。</p>
+        </div>
+        </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="container">
+                <h2>01.搜索热度</h2>
+                <p id="search_heat">&nbsp&nbsp成都如今已成为文艺青年打卡圣地，玉林路的小酒馆熙熙攘攘，一首《成都》对成都细腻的描绘让无数人心驰神往。我们查找了2013至2018年成都搜索热度，同时与公认的四大一线城市北京、上海、深圳、广州比较，在2017年之前成都搜索热度在五大城市里时常处于末位，偶尔小幅超越广州。从2017年开始成都搜索量进入集中爆发期，综艺节目《歌手》中赵雷一曲《成都》红遍大江南北，成都搜索量达到巅峰，以2017年2月5日——2017年2月11日一周来看，成都均值达到84967，四大一线城市中搜索热度最高的北京仅仅20029，热度差异巨大，成都在此阶段迅速走红，地处西南的城市走入全国视野，无法忽视。值得关注的是，2017年走红并不昙花一现，截止2018年5月成都搜索指数依然远远超越一线城市。</p>
+                <div class="chart">
+                    <div id="trends">       
+                    <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1435_RC11/embed_loader.js"></script>     
+                    <script type="text/javascript"> 
+                    trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"成都","geo":"CN","time":"2016-01-01 2018-05-29"},{"keyword":"北京","geo":"CN","time":"2016-01-01 2018-05-29"},{"keyword":"上海","geo":"CN","time":"2016-01-01 2018-05-29"},{"keyword":"广州","geo":"CN","time":"2016-01-01 2018-05-29"}],"category":0,"property":""}, {"exploreQuery":"date=2016-01-01%202018-05-29&geo=CN&q=%E6%88%90%E9%83%BD,%E5%8C%97%E4%BA%AC,%E4%B8%8A%E6%B5%B7,%E5%B9%BF%E5%B7%9E","guestPath":"https://trends.google.com:443/trends/embed/"}); 
+                    </script> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="container">
+                 <h2>02.交通行业</h2>
+                <p>&nbsp&nbsp2013年至2017年逐级攀升的数据都在说明着成都人流量的飞速增长。铁路方面成都东站作为全国六大铁路交通枢纽之一，承担着辐射至全国的37条高铁线路的运输任务。<br/>
+                &nbsp&nbsp目前在建的天府国际机场也将让成都成为我国第三个拥有两个机场的城市，另外两个分别为上海和台北。<br/>
+                &nbsp&nbsp交通通达度、交通设施的完备程度是城市影响力提高的关键。根据成都市交通委员会的报告，成都2018年计划新开工交通项目51个，预计完成建设投资492亿元，同比增长12.5%。交通是商品交换的先决条件，成都交通建设的飞速发展正解决着全国距离成都较远的地区“去而不得”的困境，交通的便利也吸引了更多游客，拉动着成都的经济。在未来，成都交通服务功能的完善也会让成都的城市力量不断提升。</p>
+                <div id="transport_bar" class="chartmain"></div>
+            </div>
+        </div>
+        <div class="section" id="section4">
+            <div class="container">
+               <h2>03.旅游行业</h2>
+               <div class="custom_1">
+                <p>&nbsp&nbsp根据国家统计局的数据，中国旅游业总收入占GDP的比例从2008年开始持续攀升，2016年已达到6.3%。对于成都来说，“网红城市”这一名号带来的浪潮更是让成都的旅游业迅速崛起，从2013年至2017年五年间成都接待的旅游人口不断攀升，越来越多的国内国际游客跟随互联网的指引来到这个城市。</p>
+                <div id="tour_bar" class="chartmain"></div>
+            </div>
+            <div class="custom_2">
+                <p>&nbsp&nbsp从2017年成都A级景区接待旅客人数最多的前十名看，排名第一的大悦城是商业区，这也是少见的商业广场成为A级景区的例子，火遍网络的成都远洋太古里和成都国际金融中心是也是同样类型的地方。抖音视频有关成都的作品里，有关奢侈品、网红店、美食的视频往往会收获数十万个赞，部分人们看了攻略，从不同的地方到了成都，除了味道之旅，为的就是在火遍全国的网红地点打卡，这样看来一个商业中心摇身一变成了A级景区，并且成绩还排名第一，也并不显得奇怪。</p>
+                <img src="images/scenery.jpg">
+            </div>
+           </div>
+        </div>
+        <div class="section" id="section5">
+            <div class="container">
+                <h1>红下去，不只因为一首歌</h1>
+                <h2>01.餐饮行业</h2>
+                <p>&nbsp&nbsp火锅、冒菜、串串香、冷锅串串、麻辣烫、钵钵鸡......这些都是来自川渝地区的美食，2010年成都获得了教科文组织授予的第一个亚洲“美食之都”称号。成都餐厅数量全国最多，今年最新统计约15.39万家。成都一年能吃掉2-3亿个麻辣兔头，因为供不应求，近20%的兔头还要从意大利和法国跨国进口。美食塑造着成都人直爽泼辣的性格，也让游客流连忘返。从趋势图来看，成都餐饮业2013——2015年保持着6%以上的增速，2015——2017爆红期一直保持10%以上的高速增长，吃货文化在成都旺盛发展。无数人前往成都”探味“，网红店不断涌现，拉动城市餐饮业蓬勃发展。在2017年美食热度排行榜，成都火锅以8700万关注度登顶。</p>
+                <div id="restrant_bar" class="chartmain"></div>
+            </div>
+        </div>
+        <div class="section" id="section6">
+            <div class="container">
+                <h2>02.生活成本</h2>
+                <div id="custom_1">
+           <p>&nbsp&nbsp从制作的成都人口收入与消费情况表可以看出，2013年至2016年，城市和农村的居民人均可支配收入均在逐年上涨，人均消费性支出也相应上升，钱包渐涨的同时也带动着成都人消费意愿的增加。人们的幸福感不仅来源于物质财富的积累，生活成本负担的高低也会产生直接影响，物价指数则是反映生活成本的重要参考指标。</p>
+            <div id="salary_city_bar" class="chartmain"></div>
+        </div>
+
+            <div id="custom_2">
+                <p>&nbsp&nbsp通过观察另一份以上年同月数据为基准的城市居民消费价格分类指数表（时间跨度为2017年4月至2018年4月，一年），我们可以看出成都食品烟酒、衣着、居住、生活用品、交通和通信、教育文化和娱乐、医疗保健的物价指数在100%至115%之间波动，较多月份维持在110%以下，总体平稳。经济收入与生活成本的衡量往往是外来人口，尤其是毕业生选择迁入该城市的首要考虑因素。</p>
+                <div id="comsume_bar" class="chartmain"></div>
+            </div>
+            </div>
+        </div>
+        <div class="section" id="section7">
+            <div class="container">
+                <h2>03.文化氛围</h2>
+            <p>&nbsp&nbsp美食可以满足一时口腹之欲，城市真正吸引人留下来是文化内核。如果你对成都是印象只留在休闲，那你就错过了它的先锋多元。2016文创增势报告中，成都以得分27.24排名第一，2016年成都文创产业增长占GDP比重达到5.2%已成为支柱型产业。成都近年来文化建设稳步进行，基础设施建设稳步推进。作为西南地区的时尚之都，成都是大品牌在西南地区的首选城市，已经连续第三年在消费品牌门店总数中超过广州及其他新一线城市，2016年成都人均时尚阅读篇数居全国首位，达0.57篇。如今的成都新锐又充满干劲，”少不入蜀”当改成“少当入蜀”。过去的一两年成都正在成为继北京、上海、深圳、杭州之后的中国IT第五城，政府启动“蓉漂计划”培养多元创业文化，现在的成都是一个在成长拓展的城市，孕育着无数机会与挑战。</p>
+            <div id="culture_bar" class="chartmain"></div>
+            </div>
+        </div>
+        <div class="section" id="section8">
+            <div class="container">
+                <h2>04.人口</h2>
+            <p>&nbsp&nbsp成都网红城市称号一定程度上放映了其人气的聚集，这不仅体现在短期旅客量的增多，背后还有近年来人口的流入作为支撑。从制作的成都人口变化情况表可以看出，2013年至2016年迁入人口数总体呈上升趋势，机械变动增长率四年均高于8%的水平，迁入人口数高于迁出人口数超一半。在以净流入人口占常住人口比重为主要衡量标准的2015中国重点城市包容度牌行榜中，成都位列23，被认为是中国容量潜力巨大的城市。在昔日以劳动力输出为主的中西部重要省会城市发生这些变化的背后，主要存在着内部与外部两方面原因。一是成都所在的人口大省四川省城镇化率并不高，在如今越来越多人选择就近就业的背景下，农村人口向省内的省会城市转移成为了一种重要趋势。二是成都作为核心二线城市越来越重视人才的吸纳，提出了“蓉漂”概念，出台了一系列涵盖资金、生活保障等方面的人才政策。华尔街见闻所发表的北上广深人群流入城市Top10排名显示，成都是仅次于重庆与杭州的受逃离人群青睐的城市。除外，人口流入还离不开国家的政策规划导向。在2016年，国家发改委便明确提出成都要以建设国家中心城市作为未来的发展目标。</p>
+            <div id="population_bar" class="chartmain"></div>
+              </div>
+        </div>  
+         <div class="section" id="section9">
+            <div class="container">
+                <h2>05.生态环境</h2>
+            <p>&nbsp&nbsp当然，在如今越来越多人强调居住环境的背景下，经济收入与生活成本不再是人们是否选择在这个城市“落脚”的单纯因素。近年，我们看到包括像广州这样的城市正逐渐调整发展思路，力求建设宜居城市。<br/>&nbsp&nbsp有鉴于此，我们也将生态环境质量纳入到对网红城市成都的分析中。从制作的城市空气质量综合指数表来看，相较于广州、深圳，成都的综合指数和最大指数均较高。从查找到成都市环境质量报告得知：成都pm2.5年均浓度（微克/立方米）在2013年至2017年有明显下降；成都的环境噪声等级，在2013至2016年逐年下降；2014年至2016年饮用水达标率维持在高水平，地表水Ⅰ~Ⅲ类水占比逐年上升，劣Ⅴ类水逐年下降；生态环境指数在2013年至2015年有小幅度提高。但是成都的生态环境亦并非全然乐观，从绝对数值来看：2014到2016年成都地表水Ⅰ~Ⅲ类水占比在65%至70%之间，仍有提升空间；而生态环境状况指数在2013年至2015年分别为62.9、65.8、65.7，刚上及格线。<br/>&nbsp&nbsp
+            成都如果想要在未来成为一个具有长期吸引力的网红城市，环境问题不容忽视。
+            </p>
+            <div id="situation_bar" class="chartmain"></div>
+              </div>
+        </div>  
+         <div class="section" id="section10">
+            <div class="container">
+                 <h1>成都什么时候过气</h1>
+                 <p>&nbsp&nbsp一年又一年，对于城市的测评从来没有停过。在中国财经周刊的排名里，他一直是新一线城市的第一名，可是他在普通人们的眼中又是第几名呢？有的人呆了几天就爱上了这个城市，但有的人却觉得这个城市不过如此。网红城市的名号带来的是成都的生活的变化，不在成都的人乐于奔向那里，在成都的人感到的却是这个城市的空间收缩带来的的窒息感，于是人们开始怀疑成都能否在承受着越来越多的关注的同时还能保持着他自己独特的魅力，一座城市是否会像一个热点话题一样在时间的流逝中被人遗忘，没人能给出确切的答案，可不能怀疑的是，人们正是因为这座城市高速发展的同时还能够保持着“悠闲”的心，我们只能期待，未来人们提起成都还能够说着：成都啊，确实是个地方。</p>                 
+              </div>
+              <div id="origin">
+                    <p>数据来源：国家统计网</p>
+                    <p>团队成员：赵婉言，刘佳玮，冼楚乔，庄蕴僖</p>
+                </div>
+             
+        </div>  
+    </div>
+</div>
+
+<script type="text/javascript" src="function.js"></script>
+<script src="js/jquery-1.12.3.min.js" charset="utf-8"></script>
+<script src="js/XSwitch-min.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="js/population.js"></script>
+<script type="text/javascript" src="js/salary.js"></script>
+<script type="text/javascript" src="js/transRestrant.js"></script>
+<script type="text/javascript" src="js/growRate.js"></script>
+<script type="text/javascript" src="js/culture.js"></script>
+<script type="text/javascript" src="js/situation.js"></script>
+<script type="text/javascript" src="js/cosume.js"></script>
+<script type="text/javascript" src="js/tour.js"></script>
+
+</body>
+</html>
