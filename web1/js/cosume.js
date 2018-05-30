@@ -1,6 +1,7 @@
 var comsume_bar=echarts.init(document.getElementById('comsume_bar'));
 comsume_option={
-	timeline:{  
+	timeline:{ 
+    x:0, 
         data:[   
             '2017-07','2017-08','2017-09','2017-10','2017-11',
             '2017-12','2018-01','2018-02','2018-03','2018-04'
@@ -26,7 +27,8 @@ comsume_option={
 	    },
 	    legend: {
 	        type: 'scroll',
-	        orient: 'horizen',
+	        orient: 'vertical',
+            left: 'center',
 	        data: ['食品烟酒','粮食','衣着','居住','生活用品','交通和通信','教育文化和娱乐','医疗保健']
 	    },
 	    calculable : true,
@@ -36,7 +38,7 @@ comsume_option={
 	            name:'消费分类占比',
 	            type: 'pie',
 	            radius : '55%',
-	            center: ['40%', '50%'],
+	            center: ['20%', '50%'],
 	            data:[{name:'食品烟酒',value:99.4},{name:'粮食',value:114.7},{name:'衣着',value:103.5},
 	            {name:'居住',value:99.7},{name:'生活用品',value:99.2},{name:'交通和通信',value:107.8},
 	            {name:'教育文化和娱乐',value:106.5},{name:'医疗保健',value:105.5}],
