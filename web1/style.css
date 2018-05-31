@@ -119,7 +119,7 @@ label.line{
 #section2 p{
     position: relative;
     float: left;
-    margin-left: 10%;
+    margin-left: 8%;
     width: 35%;
     height: 450px;
     font-family:'宋体';
@@ -134,7 +134,7 @@ label.line{
 #trends{
     float: right;
     width: 45%;
-    margin-right: 10%;
+    margin-right: 8%;
     height: 450px;
 }
 #section2 p{
@@ -151,7 +151,7 @@ label.line{
 #section3 p{
     position: relative;
     float: left;
-    margin-left: 10%;
+    margin-left: 8%;
     width: 35%;
     height: 450px;
     font-family:'宋体';
@@ -166,7 +166,7 @@ label.line{
 #transport_bar{
     float: right;
     width: 45%;
-    margin-right: 10%;
+    margin-right: 8%;
     height: 450px;
 }
 #section3 p{
@@ -220,7 +220,7 @@ label.line{
 #section5 p{
     position: relative;
     float: left;
-    margin-left: 10%;
+    margin-left: 8%;
     width: 35%;
     height: 450px;
     font-size: 17px;
@@ -231,20 +231,20 @@ label.line{
     position: relative;
     font-size:25px;
     text-align: center;
-    margin-top:5%;
+    margin-top:2%;
     margin-bottom: 2%;
 }
 #restrant_bar{
     float: right;
     width: 45%;
-    margin-right: 10%;
+    margin-right: 8%;
     height: 450px;
 }
 #section5 h1{
     position: relative;
     font-size:35px;
     font-family: '华文行楷';
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -297,7 +297,7 @@ label.line{
 #section7 p{
     position: relative;
     float: left;
-    margin-left: 10%;
+    margin-left: 8%;
     width: 35%;
     height: 450px;
     font-size: 17px;
@@ -314,7 +314,7 @@ label.line{
 #culture_bar{
     float: right;
     width: 45%;
-    margin-right: 10%;
+    margin-right: 8%;
     height: 450px;
 }
 
@@ -372,6 +372,9 @@ label.line{
     height: 450px;
 }
 
+#section10{
+    background: #dddddd;
+}
 #section10 h1{
     position: relative;
     width: 50%;
