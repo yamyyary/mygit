@@ -95,8 +95,8 @@ label.line{
 }
 .content #first{
     top:15%; 
-    width: 50%;
-    margin-left: 25%;
+    width: 54%;
+    margin-left: 23%;
 }
 .content #first p{
     font-size: 17px;
@@ -160,7 +160,7 @@ label.line{
     position: relative;
     font-size:25px;
     text-align: center;
-    margin-top:10%;
+    margin-top:7%;
     margin-bottom: 2%;
 }
 #transport_bar{
@@ -269,7 +269,7 @@ label.line{
     position: relative;
     font-size:25px;
     text-align: center;
-    margin-top:5%;
+    margin-top:4%;
     margin-bottom: 2%;
 }
 #section6 #custom_2{
@@ -308,7 +308,7 @@ label.line{
     position: relative;
     font-size:25px;
     text-align: center;
-    margin-top:10%;
+    margin-top:7%;
     margin-bottom: 2%;
 }
 #culture_bar{
