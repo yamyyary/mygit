@@ -28,7 +28,8 @@ comsume_option={
 	    legend: {
 	        type: 'scroll',
 	        orient: 'vertical',
-            left: 'center',
+            left: 500,
+            top:20,
 	        data: ['食品烟酒','粮食','衣着','居住','生活用品','交通和通信','教育文化和娱乐','医疗保健']
 	    },
 	    calculable : true,
@@ -37,8 +38,8 @@ comsume_option={
 	        	title : {'text':'2017年7月成都消费分类指数表'},
 	            name:'消费分类占比',
 	            type: 'pie',
-	            radius : '55%',
-	            center: ['20%', '50%'],
+	            radius : '50%',
+	            center: ['40%', '50%'],
 	            data:[{name:'食品烟酒',value:99.4},{name:'粮食',value:114.7},{name:'衣着',value:103.5},
 	            {name:'居住',value:99.7},{name:'生活用品',value:99.2},{name:'交通和通信',value:107.8},
 	            {name:'教育文化和娱乐',value:106.5},{name:'医疗保健',value:105.5}],
