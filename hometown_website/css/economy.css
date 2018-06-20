@@ -1,0 +1,100 @@
+body{
+	margin:0;
+	background-color: #fff;
+}
+.header{
+	position: relative;
+}
+.header img{
+	width: 86%;
+	margin-left: 7%;
+	height: 600px;
+
+}
+.header #topmenu{
+	position: absolute;
+	right: 200px;
+	top:30px;
+}
+.header #topmenu ul{
+	list-style: none;
+}
+.header #topmenu ul>li{
+	display: inline;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 18px;
+}
+.header #topmenu ul li a{
+	padding: 15px;
+}
+.header #topmenu ul li a:link{
+	text-decoration: none;
+	color: #006666;
+}
+.header #topmenu ul li a:visited{
+	text-decoration: none;
+	color:#003366;
+}
+.header #topmenu ul li a:hover{
+	text-decoration: none;
+	background: linear-gradient(to left, #003366,#003366) left top no-repeat, 
+                linear-gradient(to bottom, #003366,#003366) left top no-repeat, 
+                linear-gradient(to left, #003366,#003366) right top no-repeat,
+                linear-gradient(to bottom, #003366,#003366) right top no-repeat, 
+                linear-gradient(to left, #003366,#003366) left bottom no-repeat,
+                linear-gradient(to bottom,#003366,#003366) left bottom no-repeat,
+                linear-gradient(to left,#003366,#003366) right bottom no-repeat,
+                linear-gradient(to left, #003366,#003366) right bottom no-repeat;
+    background-size: 1px 10px, 10px 1px, 1px 10px, 10px 1px;  
+	color:#003366;
+}
+.header #topwords{
+	position: absolute;
+	left: 520px;
+	top:100px;
+	z-index: 2;
+}
+.header #topwords h1{
+	font-family: '楷体';
+	font-size: 90px;
+	color: #ffffff;
+}
+#category{
+	width: 16%;
+	height: auto;
+	float: left;
+	margin-top: 150px;
+	margin-left: 150px;
+	background-color: #FFFFCC;
+	border-radius: 10px;
+}
+hr{
+	height:1px；
+	border:none;
+	border-top:1px 
+	dashed #0066CC;
+}
+#culture_con{
+	width: 60%;
+	height: auto;
+	float: right;
+	margin-top: 150px;
+	margin-right: 150px;
+	background-color: #FFFFCC;
+}
+#culture_con .culture_content{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: auto;
+}
+#culture_con .culture_content h3{
+	font-size: 25px;
+	text-align: center;
+}
+#culture_con .culture_content p{
+	width: 100%;
+	height: auto;
+}
+
